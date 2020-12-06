@@ -14,6 +14,9 @@ namespace Time
             Time time = new Time(12, 25, 23);
             Console.WriteLine("Time: " + time);
 
+            Time time1 = new Time(12);
+            Console.WriteLine("Time 1 parametr: :" + time1);
+
             Time time2 = new Time("12:25:23");
             Console.WriteLine("Time string: " + time2);
 

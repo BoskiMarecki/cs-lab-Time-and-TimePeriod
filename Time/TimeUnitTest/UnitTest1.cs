@@ -11,9 +11,9 @@ namespace TimeUnitTest
     public class UnitTest1
     {
 
-        #region Constructor Time==========================
+        #region Constructor
 
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         public void Constructor_Time_Default()
         {
             var time = new Time.Time();
@@ -21,7 +21,7 @@ namespace TimeUnitTest
             Assert.AreEqual(defaultTime, time);
         }
 
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         [DataRow ((byte)0, (byte) 0 , (byte) 0)]
         [DataRow ((byte)14, (byte) 53 , (byte) 11)]
         [DataRow ((byte)23, (byte) 17 , (byte) 1)]
@@ -34,7 +34,7 @@ namespace TimeUnitTest
             
         }
 
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         [DataRow((byte)9)]
         [DataRow((byte)22)]
         [DataRow((byte)13)]
@@ -45,7 +45,7 @@ namespace TimeUnitTest
 
             Assert.AreEqual($"{h}:00:00", t1.ToString());
         }
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         [DataRow((byte)9,(byte)52)]
         [DataRow((byte)22,(byte) 16)]
         [DataRow((byte)13, (byte) 54)]
@@ -56,7 +56,7 @@ namespace TimeUnitTest
             Assert.AreEqual($"{h}:{m:D2}:00", t1.ToString());
         }
 
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         [DataRow((byte)19, (byte)42,(byte)32)]
         [DataRow((byte)12, (byte)16, (byte) 21)]
         [DataRow((byte)3, (byte)4,(byte)56)]
@@ -67,7 +67,7 @@ namespace TimeUnitTest
             Assert.AreEqual($"{h}:{m:D2}:{s:D2}", t1.ToString());
         }
 
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         public void Constructor_Time_String_Hour()
         {
             Time.Time t1 = new Time.Time("12");
@@ -76,7 +76,7 @@ namespace TimeUnitTest
             Assert.AreEqual("12:00:00", t1.ToString());
             Assert.AreEqual("23:00:00", t2.ToString());
         }
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         public void Constructor_Time_String_Hour_Minutes()
         {
             Time.Time t1 = new Time.Time("12:53");
@@ -85,7 +85,7 @@ namespace TimeUnitTest
             Assert.AreEqual("12:53:00", t1.ToString());
             Assert.AreEqual("23:21:00", t2.ToString());
         }
-        [TestMethod, TestCategory("Constructor Time")]
+        [TestMethod, TestCategory("Constructor")]
         public void Constructor_Time_String_Hour_Minutes_Seconds()
         {
             Time.Time t1 = new Time.Time("12:21:02");

@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeUnitTest", "TimeUnitTes
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLibrary", "TimeLib\TimeLibrary.csproj", "{815D45FB-66DC-4A0B-A4FC-789A37F6EFE4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeForms", "TimeForms\TimeForms.csproj", "{B64559E2-E1B5-45C0-884C-78A2C39A1118}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{815D45FB-66DC-4A0B-A4FC-789A37F6EFE4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{815D45FB-66DC-4A0B-A4FC-789A37F6EFE4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{815D45FB-66DC-4A0B-A4FC-789A37F6EFE4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B64559E2-E1B5-45C0-884C-78A2C39A1118}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B64559E2-E1B5-45C0-884C-78A2C39A1118}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B64559E2-E1B5-45C0-884C-78A2C39A1118}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B64559E2-E1B5-45C0-884C-78A2C39A1118}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
