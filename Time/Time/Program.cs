@@ -11,25 +11,21 @@ namespace Time
     {
         public static void Main()
         {
-            Console.WriteLine("Time Wypisany z 3 properties");
-            Time t01 = new Time(12, 22, 09);
-            Console.WriteLine(t01);
+            Time time = new Time(12, 25, 23);
+            Console.WriteLine("Time: " + time);
 
-            Console.WriteLine("Time wypisany z formatu string");
-            Time t02 = new Time("12:32:11");
-            Console.WriteLine(t02);
+            Time time2 = new Time("12:25:23");
+            Console.WriteLine("Time string: " + time2);
 
-            Console.WriteLine("TimePeriod wypisany z properties sekundy");
-            TimePeriod tp01 = new TimePeriod(6352);
-            Console.WriteLine(tp01);
+            TimePeriod tp01 = new TimePeriod(86491);
+            Console.WriteLine("TimePeriod: " + tp01);
 
-            Console.WriteLine("TimePeriod wypisany formatu string");
-            TimePeriod tp02 = new TimePeriod("6:42:19");
-            Console.WriteLine(tp02);
+            TimePeriod tp02 = new TimePeriod("129:58:12");
+            Console.WriteLine("TimePeriod string: " + tp02);
 
             Console.WriteLine("Dodawanie Time Metodą Plus");
-            t01.Plus(tp02);
-            Console.WriteLine(t01);
+            time.Plus(tp02);
+            Console.WriteLine(time);
 
             Console.WriteLine("Dodawanie TimePeriod metodą Plus");
             TimePeriod tp05 = TimePeriod.Plus(tp02, tp01);

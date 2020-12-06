@@ -5,9 +5,9 @@ VisualStudioVersion = 16.0.30711.63
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Time", "Time\Time.csproj", "{42BE3160-D2EA-4E9A-8692-6B0F069487E5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeUnitTest", "TimeUnitTest\TimeUnitTest.csproj", "{336C95E9-E89A-4EA4-AC64-B8B933A03A99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeUnitTest", "TimeUnitTest\TimeUnitTest.csproj", "{336C95E9-E89A-4EA4-AC64-B8B933A03A99}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimeLib", "TimeLib\TimeLib.csproj", "{815D45FB-66DC-4A0B-A4FC-789A37F6EFE4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimeLibrary", "TimeLib\TimeLibrary.csproj", "{815D45FB-66DC-4A0B-A4FC-789A37F6EFE4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
